@@ -1,0 +1,158 @@
+.employee-page {
+    padding: 32px;
+    background: #f8fafc;
+    min-height: 100vh;
+}
+
+/* Toolbar */
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.toolbar h1 {
+    margin: 0;
+    font-size: 26px;
+    color: #0f172a;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #64748b;
+}
+
+/* Buttons */
+.primary-btn {
+    background: #2563eb;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.primary-btn:hover {
+    background: #1d4ed8;
+}
+
+.link-btn {
+    color: #2563eb;
+    font-weight: 500;
+    margin-right: 12px;
+    text-decoration: none;
+}
+
+.link-btn:hover {
+    text-decoration: underline;
+}
+
+.danger-btn {
+    background: none;
+    border: none;
+    color: #dc2626;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* Filters */
+.filter-bar {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.filter-bar input {
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid #cbd5f5;
+    font-size: 14px;
+    width: 200px;
+}
+
+/* Table */
+.table-wrapper {
+    background: white;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+    overflow: hidden;
+}
+
+.employee-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.employee-table thead {
+    background: #f1f5f9;
+}
+
+.employee-table th,
+.employee-table td {
+    padding: 14px 16px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.employee-table th {
+    font-weight: 600;
+    color: #475569;
+}
+
+.employee-table tbody tr {
+    border-top: 1px solid #e2e8f0;
+}
+
+.employee-table tbody tr:hover {
+    background: #f8fafc;
+}
+
+.name-cell {
+    font-weight: 600;
+    color: #0f172a;
+}
+
+/* Role */
+.role-pill {
+    background: #e0e7ff;
+    color: #3730a3;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* Empty */
+.empty {
+    text-align: center;
+    padding: 40px;
+    color: #94a3b8;
+}
+
+/* Actions */
+.actions-col {
+    white-space: nowrap;
+}
+
+/* Pagination */
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.pagination button {
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: 1px solid #cbd5f5;
+    background: white;
+    cursor: pointer;
+}
+
+.pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
